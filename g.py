@@ -10,7 +10,7 @@ elif aaa=='':
     os.system("clear")
 else:
     print ("\n\n")
-    print ("\t/data/data/com.termux/files/home/facebook-tols/"+aaa)
+    print ("\t/data/data/com.termux/files/home/FB-hack-TOOLS/"+aaa)
     print ("\n")
     file=open(aaa,'w')
     aa=set([])
