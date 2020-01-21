@@ -7,7 +7,7 @@
 import os
 import sys
 import time
-import wcolors
+from core import wcolors
 from datetime import datetime
 os .system("clear")
 ####################
@@ -84,8 +84,8 @@ banner="""
 banner_2=''' 
 \033[0m
 🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻
-🔵my fb:\033[4mhttps://m.facebook.com/profile.php?id🔵
-🔵 =100036177376844\033[0m                          🔵
+🔵my fb:\033[4mhttps://m.facebook.com/profile.php?id
+ =100036177376844\033[0m                          🔵
 🔺🔺🔺🔺🔺🔺🔺🔺🔺🔺🔺🔺🔺🔺🔺🔺🔺🔺🔺🔺🔺🔺🔺🔺🔺🔺🔺
         ◼◼◼◼◼◼◼◼◼◼◼◼◼◼◼◼◼◼◼◼◼◼◼◼◼◼◼◼◼◼◼◼◼
         ◼ By :\033[4msefyan bn talb\033[0m
@@ -106,14 +106,14 @@ def main():
         time.sleep(1)
         slowprint(banner)
         print(banner_2)
-        os.system("python f.py")
+        os.system("python .f.py")
         main()
     elif cmd == 'goodlist':
         os.system("clear")
         time.sleep(1)
         slowprint(banner_3)
         slowprint(banner_2)
-        os.system("python g.py")
+        os.system("python .g.py")
         os.system("clear")
         print(banner_1)
         print(banner_2)
@@ -124,7 +124,7 @@ def main():
         slowprint(banner_4)
         slowprint(banner_2)
         print ("\n")
-        os.system("python2 h.py")
+        os.system("python2 .h.py")
         main()
     elif cmd =='exit' :
         time.sleep(1)
