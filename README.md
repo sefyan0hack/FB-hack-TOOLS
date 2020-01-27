@@ -1,6 +1,6 @@
 <html>
 <h2>
-<b>usagè<b><h2>
+<b>usagè<b></h2>
 sh install.sh
 
 python fbbgr.py
